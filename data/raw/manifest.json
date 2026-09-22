@@ -1,0 +1,48 @@
+{
+  "schema": "torah_word_rhyme.torah-download-run.v1",
+  "finished_utc": "2026-09-22T11:15:17+00:00",
+  "requested_version": "Tanach with Ta'amei Hamikra",
+  "results": [
+    {
+      "book": "genesis",
+      "status": "downloaded",
+      "chapters": 50,
+      "verses": 1533,
+      "source_sha256": "6834b3628a75b0f0b2eb32c2c94f45056d672d4f2bc853a612d57508ee3d99d4",
+      "raw_sha256": "c3b7054bc66bfd041606ebf3c5e7395ca3eb75377dae84f394efa6a80263082f"
+    },
+    {
+      "book": "exodus",
+      "status": "downloaded",
+      "chapters": 40,
+      "verses": 1210,
+      "source_sha256": "addf081ae363fff1a1053f617de7f82a076ac965e7a287c831c99a11df6a20c6",
+      "raw_sha256": "bcae3d68696d9c9057873d0e0d438c0dacc18cc406b74047c75e05915de6a113"
+    },
+    {
+      "book": "leviticus",
+      "status": "downloaded",
+      "chapters": 27,
+      "verses": 859,
+      "source_sha256": "fc80084f0ee17c457d628fc4294e09f949b263e4515bee6e3a258562df4edd1e",
+      "raw_sha256": "f6af893223f98a1996094839de9ab4a148a67b89c2328a167d91ceb780edc5be"
+    },
+    {
+      "book": "numbers",
+      "status": "downloaded",
+      "chapters": 36,
+      "verses": 1288,
+      "source_sha256": "34af14e6062d6b608f6db68dc5e89ab89b496e5d4d576dccee5a48ec9fb81760",
+      "raw_sha256": "37d43b7acd921f1160ffaec7db52a25d976adaec455fa663088f3a074cfcf650"
+    },
+    {
+      "book": "deuteronomy",
+      "status": "downloaded",
+      "chapters": 34,
+      "verses": 956,
+      "source_sha256": "61cffe3f21612c61afa1a3c1486ef6539affa22448bf45ed690b2fa976cbfa14",
+      "raw_sha256": "5c6ee6b0f21b0fa887f9a5a0b6a9ff8bf2abab37af115a6e60758657d3e4fd0f"
+    }
+  ],
+  "errors": 0
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "torah_word_rhyme.passage-inspection.v1",
+  "created_utc": "2026-09-22T11:16:45+00:00",
+  "book": "Deuteronomy",
+  "start": "11:10",
+  "end": "11:15",
+  "parameters": {
+    "equivalences": [],
+    "exact_words": "include",
+    "window_left": 20,
+    "signature_rule": "final marked vowel through word end; extend one segment left if that vowel is word-final"
+  },
+  "selected_words": 87,
+  "eligible_words": 79,
+  "accepted_pairs": 38,
+  "exact_pairs": 38,
+  "close_pairs": 0,
+  "input_sha256": "656eb28b1ec3dd4764d89517fb0b57fad9482c6c10a776d41ec6aa72a2140c5c",
+  "script_sha256": "2063645662bd9bf5f64047a54aa6d5e30c30fcb18e55fdbc43c5bbd97539cf4b",
+  "engine_sha256": "0b224d9cf818355a8d29933f8066cc87b5407634fbbb34f0ca1d1698470d57e2"
+}

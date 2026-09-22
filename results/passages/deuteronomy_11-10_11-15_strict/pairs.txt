@@ -1,0 +1,59 @@
+Deuteronomy 11:10-11:15
+equivalences: none (strict identity only)
+exact words: include; L=20
+eligible words: 79; accepted pairs: 38
+
+EXACT TERMINAL GROUPS
+[ˈer]
+  11:10  ashér  ×3
+  11:11  ashér
+[khˈa]
+  11:10  zarakhá
+  11:10  veraglekhá
+  11:14  vetíroshkhá
+  11:15  besadkhá
+[ˈarets]
+  11:10  haárets
+  11:11  vehaárets
+[ˈem]
+  11:10  yetsatém
+  11:11  atém
+  11:13  etkhém
+  11:13  elóheykhém
+  11:13  levavkhém
+  11:13  nafshekhém
+  11:14  artsekhém
+[ˈim]
+  11:10  mitsráyím
+  11:11  ovrím
+  11:11  harím
+[ˈerets]
+  11:10  kheérets
+  11:11  érets
+  11:12  érets
+[ˈayim]
+  11:11  hashamáyim
+  11:11  máyim
+[ˈah]
+  11:11  lerishtáh
+  11:12  otáh
+  11:12  báh
+[aˈi]
+  11:12  adonaí  ×2
+  11:13  adonaí
+[ˈit]
+  11:12  méreshít
+  11:12  acharít
+[nˈa]
+  11:12  hashaná
+  11:12  shaná
+[ˈekha]
+  11:14  deganékha
+  11:14  veyitsharékha
+  11:15  livhemtékha
+[tˈi]
+  11:14  venatatí
+  11:15  venatatí
+[tˈa]
+  11:14  veasaftá
+  11:15  veakhaltá
