@@ -4,7 +4,7 @@ This directory contains experimental rhythmic realizations of selected texts dis
 
 The recordings have a limited analytical purpose: they make proposed grouping, recurrence, accentual grouping, and cadential relations audible and allow the listener to test whether those relations can be sustained in continuous performance. They are experimental realizations, not reconstructions of an ancient melody or historical meter.
 
-The Cubase tempo and meter values reported in the accompanying files describe the settings used for these particular realizations. They are not presented as evidence that the texts historically possessed those exact tempo or meter values.
+The Cubase tempo and meter values reported in the accompanying files describe the settings used for these particular realizations. They are not presented as evidence that the texts historically possessed those exact tempo or meter values. The performances are demonstrative rather than studio-polished; minor local deviations in intonation or rhythmic placement may occur and belong to the realization rather than to the textual or computational analysis.
 
 For each recording, the accompanying Markdown file gives:
 
@@ -17,10 +17,12 @@ For each recording, the accompanying Markdown file gives:
 
 ## Files
 
-### Torah case-study example
+### Torah case-study examples
 
 - `genesis_1_1-5_experimental.mp3` — experimental rhythmic realization of Gen. 1:1–5.
 - `genesis_1_1-5.md` — text, analytical notes, Cubase project settings, and recording information for that audio file.
+- `exodus_13_1-10_experimental.mp3` — experimental rhythmic realization of Exod. 13:1–10.
+- `exodus_13_1-10.md` — text, analytical notes, Cubase project settings, and recording information for that audio file.
 
 ### Comparative liturgical example
 
