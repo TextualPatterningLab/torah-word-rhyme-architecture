@@ -8,7 +8,8 @@ The repository is designed as a passage-level inspection and supplementary-mater
 2. a passage-inspection tool for examining stress/marked-vowel word-final correspondences in any selected Torah range;
 3. a documented set of optional consonantal similarity settings for sensitivity inspection;
 4. an extended Example Catalogue used as supplementary close-reading material;
-5. experimental rhythmic audio realizations with listening notes.
+5. experimental rhythmic audio realizations with listening notes;
+6. an optional descriptive distribution visualization using the same word-final matching engine.
 
 The inspection tool is intended to make the matching rules transparent and reproducible. It does not decide literary function, authorial intention, genre, historical meter, or melody.
 
@@ -88,6 +89,28 @@ A frozen strict example for Deut. 11:10–15 is included at:
 results/passages/deuteronomy_11-10_11-15_strict/
 ```
 
+## Descriptive distribution visualization
+
+The repository also provides an optional Pentateuch-wide visualization of the same stress-defined word-final correspondence rule:
+
+```bat
+run\visualize_distribution.bat --label default_strict
+```
+
+The default view uses strict segment identity, includes exact repeated words, strips no morphological endings, compares each eligible word with the preceding 20 eligible words, and maps local participation in 250-word windows stepped by 50 eligible words. The five books are displayed under one shared within-run scale with a blue-to-purple palette.
+
+The visualization requires Matplotlib, installed separately so the passage-inspection tool remains dependency-free:
+
+```bat
+python -m pip install -r requirements-visualization.txt
+```
+
+Each run writes the same figure as **SVG, PDF, and 300-dpi PNG**, together with `density.tsv`, `summary.json`, and a parameter-matched `caption.txt`. The PDF is suitable for use as a descriptive Supplementary Figure.
+
+The tool accepts the same optional consonantal similarity switches as passage inspection, as well as `--exact-words exclude`, alternative comparison radii, local-window sizes, step sizes, and alternative display palettes. Full details are in `protocols/04_DISTRIBUTION_VISUALIZATION.md`.
+
+This visualization is **descriptive and exploratory**. It is not a comparison with an external control corpus, a significance test, a poetry classifier, or evidence that the Torah is statistically exceptional relative to other Hebrew corpora. The committed default output is provided so readers can see one fixed parameterization and regenerate it exactly.
+
 ## Supplementary examples and audio
 
 `examples/` contains the extended **Torah Poetic Organization — Example Catalogue**, which distinguishes core, supporting, textual-form, exploratory, and orientation examples. It includes mechanisms that the terminal inspection tool intentionally does not attempt to classify, such as medial echoes, consonantal fields, junctional effects, formulaic recurrence, and long-range rhetorical relations.
@@ -129,6 +152,7 @@ data/processed/    deterministic analytical corpus
 examples/          extended Example Catalogue
 protocols/         source, inspection, and supplement specifications
 results/passages/  reproducible passage-inspection outputs
+results/distribution/default_strict/  committed default descriptive map + audit tables
 run/               Windows launchers
-src/               downloader, preprocessing, and passage-inspection engine
+src/               downloader, preprocessing, inspection, and visualization code
 ```

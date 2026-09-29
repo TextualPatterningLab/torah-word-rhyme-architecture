@@ -1,0 +1,94 @@
+{
+  "schema": "torah_word_rhyme.descriptive-distribution.v2",
+  "created_utc": "2026-09-29T09:50:27+00:00",
+  "purpose": "descriptive exploratory visualization only; not a control-corpus comparison or significance test",
+  "label": "default_strict",
+  "parameters": {
+    "equivalences": [],
+    "exact_words": "include",
+    "window_left": 20,
+    "density_window": 250,
+    "step": 50,
+    "metric": "participating_rate",
+    "palette": "bluepurple",
+    "signature_rule": "final marked vowel through word end; extend one segment left if that vowel is word-final"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "matplotlib": "3.11.2"
+  },
+  "input_sha256": {
+    "genesis": "4b26608cbca66a80a93b20ed282a4bf171e0fe9cfc1982beca42184d742895c0",
+    "exodus": "598db9cd2332f6984b700f43e37d5fbe67e20c769198aa48d1fa9e79d31933fe",
+    "leviticus": "49fe6bfc550a5d7955884d18abe2d2ecb6536369d09ef491cbd63a28fed43de6",
+    "numbers": "5bed3ba3af0031740b65ffbb27b15217e9d7d460e06c3a31bd5f9eeb89fdbac1",
+    "deuteronomy": "656eb28b1ec3dd4764d89517fb0b57fad9482c6c10a776d41ec6aa72a2140c5c"
+  },
+  "script_sha256": "6427cd0df8213af506f0601506e0ac64b07858e592f943946f5b123da1f98dbb",
+  "engine_sha256": "0b224d9cf818355a8d29933f8066cc87b5407634fbbb34f0ca1d1698470d57e2",
+  "books": [
+    {
+      "book": "genesis",
+      "eligible_words": 18145,
+      "skipped_words": 2468,
+      "accepted_pairs": 10084,
+      "exact_pairs": 10084,
+      "close_pairs": 0,
+      "exact_repeated_word_pairs": 3510,
+      "participating_words": 9536,
+      "participating_rate": 0.5255442270597961
+    },
+    {
+      "book": "exodus",
+      "eligible_words": 14638,
+      "skipped_words": 2076,
+      "accepted_pairs": 8913,
+      "exact_pairs": 8913,
+      "close_pairs": 0,
+      "exact_repeated_word_pairs": 2893,
+      "participating_words": 7948,
+      "participating_rate": 0.5429703511408662
+    },
+    {
+      "book": "leviticus",
+      "eligible_words": 10341,
+      "skipped_words": 1609,
+      "accepted_pairs": 6796,
+      "exact_pairs": 6796,
+      "close_pairs": 0,
+      "exact_repeated_word_pairs": 2447,
+      "participating_words": 5834,
+      "participating_rate": 0.5641620733004545
+    },
+    {
+      "book": "numbers",
+      "eligible_words": 14471,
+      "skipped_words": 1942,
+      "accepted_pairs": 9175,
+      "exact_pairs": 9175,
+      "close_pairs": 0,
+      "exact_repeated_word_pairs": 3115,
+      "participating_words": 8230,
+      "participating_rate": 0.5687236542049616
+    },
+    {
+      "book": "deuteronomy",
+      "eligible_words": 12716,
+      "skipped_words": 1579,
+      "accepted_pairs": 8167,
+      "exact_pairs": 8167,
+      "close_pairs": 0,
+      "exact_repeated_word_pairs": 2091,
+      "participating_words": 6857,
+      "participating_rate": 0.5392418999685435
+    }
+  ],
+  "outputs": [
+    "distribution.svg",
+    "distribution.pdf",
+    "distribution.png",
+    "density.tsv",
+    "summary.json",
+    "caption.txt"
+  ]
+}

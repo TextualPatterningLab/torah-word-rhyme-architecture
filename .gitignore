@@ -4,3 +4,8 @@ __pycache__/
 venv/
 .DS_Store
 Thumbs.db
+
+# Custom descriptive-distribution runs are local by default.
+results/distribution/*/
+!results/distribution/default_strict/
+!results/distribution/default_strict/**
