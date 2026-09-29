@@ -38,6 +38,10 @@ The passage-inspection tool audits word-final correspondence pairs under explici
 
 The current STRICT terminal protocol is narrower than the catalogue's full descriptive vocabulary. A conspicuous auditory relation that fails the STRICT definition is therefore labelled more narrowly - for example as a broader echo, medial relation, or exploratory correspondence - rather than silently counted as strict rhyme.
 
+The repository also provides a separate descriptive distribution visualization of the same operational word-final correspondence rule across the five books; its parameters and outputs are documented independently in Protocol 4.
+
+Audio files are documented separately in `audio/`. This catalogue mentions a recording only when it directly accompanies an analytical case; it is not intended as an exhaustive index of current or future recordings.
+
 ## 1. Framing and Marked Torah Forms
 
 The opening entries establish two distinct points. Deut. 31.19 provides a textual frame in which writing, teaching, oral placement, and the repeated phrase ha-shira ha-zot converge. The following marked-form cases ask a narrower question: can a received qere or an unusual textual form also participate in local sound organization without implying that the form arose for poetic reasons?
@@ -135,20 +139,30 @@ va-yosha A-donai bayom ha-hu ...
 
 **Interpretive note.** Under the current stress-defined protocol, ba-yabashah and va-yosha have different full terminal signatures; the relation is therefore classified as a broader cross-verse echo rather than a STRICT match.
 
-### 2.3 Exodus 13.10 - miyamim yamima as a compact lexical-sound concentration
+### 2.3 Exodus 13.1-10 - recurrence across a longer performed unit
 
 **Status:** SUPPORTING
-**Reference:** Exod. 13.10
-**Mechanism:** repeated lexical core; dominant y-m sequence
+**Reference:** Exod. 13.1-10
+**Mechanism:** lexical return; formulaic recurrence; suffixal field; long-range return
 
-**Why this example is here.** This compact phrase shows how a repeated lexical/syllabic core can create a strong local acoustic concentration without needing an extended rhyme chain.
+**Why this example is here.** The later audio realization makes this longer passage useful for hearing several kinds of recurrence accumulate across successive verses. The point is not to collapse them into one rhyme class, but to observe how lexical return, repeated syntax, suffixal concentration, and longer-range echoes can coexist in one continuous unit.
 
 ```text
-ve-shamarta et ha-chuqqah ha-zot le-mo'adah,
+Qaddesh-li khol-bekhor, peter kol-rechem ... li hu.
+zakhor et-ha-yom ha-zeh ... mi-zeh.
+Ha-yom atem yotzim be-chodesh ha-aviv.
+... ve-avadta et-ha-avodah ha-zot ba-chodesh ha-zeh.
+Shiv'at yamim tokhal matzot ... ha-yom ha-shevi'i ... shiv'at ha-yamim.
+... ve-lo yera'eh lekha chametz, ve-lo yera'eh lekha se'or ...
+... lekha / yadkha / einekha / be-fikha / hotzi'akha ...
+be-chozeq yad ... / be-yad chazaqah ...
+ve-shamarta et-ha-chuqqah ha-zot le-mo'adah,
 mi-yamim yamimah.
 ```
 
-**What it demonstrates.** Miyamim / yamimah repeats the y-m-m material and the yamim lexical core in immediate succession, making the phrase an economical example of dominant sound clustering.
+**What it demonstrates.** The unit moves from compact returns such as bekhor / zakhor and ha-yom ha-zeh / mi-zeh / ha-zeh through repeated day/festival vocabulary and the exact syntactic frame ve-lo yera'eh lekha ... ve-lo yera'eh lekha. Verse 9 concentrates second-person forms (lekha / yadkha / einekha / be-fikha / hotzi'akha), while be-chozeq yad / be-yad chazaqah and the closing mi-yamim yamimah create returns across longer spans.
+
+**Audio relation.** An experimental rhythmic realization of Exod. 13.1-10 is supplied as `audio/exodus_13_1-10_experimental.mp3`; full listening notes are in `audio/exodus_13_1-10.md`.
 
 ### 2.4 Deuteronomy 11.17 - broad assonance rather than exact rhyme
 
@@ -285,7 +299,7 @@ ve-asafta deganekha ve-tiroshekha ve-yitzharekha.
 
 **Interpretive note.** The medial echo does not depend on shifting the principal stress. The close-reading form ve-tiroshekha and the repository form tiroshkha reflect different, explicitly documented transcription rules.
 
-**Repository audit.** A frozen STRICT inspection output for Deut. 11.10-15 is included at results/passages/deuteronomy_11-10_11-15_strict/.
+**Repository audit.** A frozen STRICT inspection output for Deut. 11.10-15 is included at `results/passages/deuteronomy_11-10_11-15_strict/`.
 
 ### 2.12 Genesis 22.1 - proposed composite closure toward hineni
 
@@ -394,6 +408,8 @@ u-ve-khol me'odekha.
 be-shivtekha be-veitekha,
 u-ve-lekhtekha ba-derekh,
 u-ve-shokhbekha u-vqumekha.
+U-qeshartam le-ot al yadekha,
+ve-hayu le-totafot bein einekha.
 U-khtavtam al mezuzot beitekha
 u-vish'arekha.
 
@@ -415,7 +431,7 @@ Ani A-donai E-loheikhem ...
 Ani A-donai E-loheikhem.
 ```
 
-**What it demonstrates.** Deut. 6 concentrates singular -kha/-ekha endings and recurring formulas; Deut. 11 embeds the same singular formula in a plural frame and adds malqosh / tirosh-; Num. 15 shifts to tzitzit repetition, shorter sound fragments, and exact divine-name framing.
+**What it demonstrates.** Deut. 6 concentrates singular -kha/-ekha endings, the le-ot / le-totafot relation, and recurring instructional formulas; Deut. 11 alternates collective and individualized address while reusing the domestic-journey formula and adding malqosh / tirosh-; Num. 15 shifts to tzitzit repetition, shorter sound fragments, and exact divine-name framing.
 
 ### 4.2 Genesis 1 - narrative organization across scales
 
@@ -489,13 +505,13 @@ Lo tachmod ... ve-lo tit'aveh ...
 
 **Interpretive note.** Tin'af / la-shav belongs to the project's graded f/v correspondence and is not counted as a STRICT identity match.
 
-### 4.5 Leviticus 25.35-38 - economic law as a genre stress test
+### 4.5 Leviticus 25.35-38 - economic law as a demanding case
 
 **Status:** CORE
 **Reference:** Lev. 25.35-38
 **Mechanism:** recurrent verse closure; syntactic parallelism; singular-to-plural shift
 
-**Why this example is here.** Technical economic law is a strong test of whether formal sound organization extends beyond lyrical or narrative material.
+**Why this example is here.** Technical economic law is a demanding case for asking whether formal sound organization extends beyond lyrical or narrative material.
 
 ```text
 Ve-khi yamukh achikha
@@ -521,7 +537,6 @@ lihyot lakhem le-E-lohim.
 
 **What it demonstrates.** Vv. 35 and 36 share the verse-final immakh cadence; v. 37 builds a strict lo titten parallel; v. 38 shifts from singular obligation to a plural covenantal frame.
 
-**Interpretive note.** The broader kh/ch field is a sound field surrounding the stronger verse-closing and syntactic correspondences; it is not treated as one exact rhyme class.
 
 ### 4.6 Numbers 18.8-10 - institutional allocation and enumerative sound
 
@@ -624,16 +639,16 @@ Ps. 104.5: ... olam va'ed.
 **Why this example is here.** This example is pedagogical rather than evidential for the Torah. Its dense rhyme fields and repeated imperatives make interlaced sound organization unusually easy to hear.
 
 ```text
-Ana be-koach gedulat yeminkha tatir tzerurah;
-Qabel rinat amkha, sagveinu, tahareinu nora;
-Na gibor, dorshei yichudkha, kevavat shomrem;
-Barkhem, taharem, rachamem, tzidqatkha tamid gamlem;
-Chasin qadosh, be-rov tuvkha, nahel adatekha;
-Yachid ge'eh, le-amkha p'neh, zokhrei qedushatekha;
-Shav'atenu qabel, u-shma tza'aqatenu, yodea ta'alumot;
-Barukh shem kevod malkhuto le-olam va'ed.
+Ana be'koach gedulat yeminekha tatir tzerurah;
+Qabel rinat amekha, sagveinu, tahareinu nora;
+Na gibbor, dorshei yichudekha, kevavat shomrem;
+Barekhem, taharem, rachamei tzidkatekha tamid gamlem;
+Chasin qadosh, berov tuv'kha, nahel adatekha;
+Yachid ge'eh, le'amkha p'neh, zochrei qedushatekha;
+Shav'atenu qabel, ushma' tza'akatenu, yodea ta'alumot;
+Baruch shem kevod malkhuto le'olam va'ed.
 ```
 
-**What it demonstrates.** Several end fields interact with repeated imperatives such as qabel / barkhem / qabel.
+**What it demonstrates.** Several end fields interact with repeated imperatives such as qabel / barekhem / qabel.
 
 **Interpretive note.** The displayed wording follows the Sefaria Siddur Ashkenaz witness used for this catalogue. The value of the example here is its exceptionally dense, easily audible interlacing of rhyme and imperative cadence.
