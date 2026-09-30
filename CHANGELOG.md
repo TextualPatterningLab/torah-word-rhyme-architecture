@@ -1,5 +1,13 @@
 # Revision notes
 
+## 1.0.3 — 2026-09-30
+
+- Synchronize the Example Catalogue display transcription with the finalized pronunciation-oriented conventions (`u-ve-qumekha`; `ve-tiroshkha` / `tiroshkha`).
+- Remove the obsolete note that treated the Deut. 11.14 close-reading form as intentionally different from the repository form.
+- Regenerate the catalogue PDF from the same revised catalogue source.
+- Keep the repository publication-neutral; no article-, journal-, or submission-specific wording is added.
+- No changes to frozen source data, preprocessing, matching code, audio files, or numerical outputs.
+
 ## 1.0.2 — 2026-09-30
 
 - Clarify normalized horizontal position, eligible-word counts, and shared proportion scale in the README, visualization protocol, and generated caption.

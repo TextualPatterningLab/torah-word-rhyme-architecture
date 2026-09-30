@@ -293,12 +293,12 @@ Gen. 22.18: ... asher shamá'ta be-qoli.
 
 ```text
 yoreh u-malqosh;
-ve-asafta deganekha ve-tiroshekha ve-yitzharekha.
+ve-asafta deganekha ve-tiroshkha ve-yitzharekha.
 ```
 
-**What it demonstrates.** Internal tirosh- echoes malqosh, while the full tiroshekha continues into the surrounding -ekha field.
+**What it demonstrates.** Internal tirosh- echoes malqosh, while the full tiroshkha continues into the surrounding -ekha field.
 
-**Interpretive note.** The medial echo does not depend on shifting the principal stress. The close-reading form ve-tiroshekha and the repository form tiroshkha reflect different, explicitly documented transcription rules.
+**Interpretive note.** The medial echo does not depend on shifting the principal stress. The display form ve-tiroshkha follows the pronunciation-oriented convention used here.
 
 **Repository audit.** A frozen STRICT inspection output for Deut. 11.10-15 is included at `results/passages/deuteronomy_11-10_11-15_strict/`.
 
@@ -356,7 +356,7 @@ These cases shift from local sound to repeated formulas and rhetorical shapes th
 ```text
 be-shivtekha be-veitekha,
 u-ve-lekhtekha ba-derekh,
-u-ve-shokhbekha u-vqumekha.
+u-ve-shokhbekha u-ve-qumekha.
 
 U-khtavtam al mezuzot beitekha
 u-vish'arekha.
@@ -408,7 +408,7 @@ u-ve-khol me'odekha.
 ...
 be-shivtekha be-veitekha,
 u-ve-lekhtekha ba-derekh,
-u-ve-shokhbekha u-vqumekha.
+u-ve-shokhbekha u-ve-qumekha.
 U-qeshartam le-ot al yadekha,
 ve-hayu le-totafot bein einekha.
 U-khtavtam al mezuzot beitekha
@@ -416,11 +416,11 @@ u-vish'arekha.
 
 Deut. 11:
 ... yoreh u-malqosh;
-ve-asafta deganekha ve-tiroshekha ve-yitzharekha.
+ve-asafta deganekha ve-tiroshkha ve-yitzharekha.
 ...
 be-shivtekha be-veitekha,
 u-ve-lekhtekha ba-derekh,
-u-ve-shokhbekha u-vqumekha.
+u-ve-shokhbekha u-ve-qumekha.
 U-khtavtam al mezuzot beitekha u-vish'arekha.
 
 Num. 15:
