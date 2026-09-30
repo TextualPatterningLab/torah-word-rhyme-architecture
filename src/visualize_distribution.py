@@ -283,7 +283,7 @@ def build_figure(
         else "strict identity only"
     )
     fig.suptitle(
-        "Stress-defined word-final correspondence distribution across the Pentateuch",
+        "Demonstrative word-final correspondence distribution across the Pentateuch",
         fontsize=15,
         fontweight="bold",
         y=0.955,
@@ -342,13 +342,27 @@ def build_figure(
 
 
 def suggested_caption(parameters: dict) -> str:
+    matching = (
+        "STRICT normalized segment identity"
+        if not parameters["equivalences"]
+        else "optional consonantal correspondences: " + ", ".join(parameters["equivalences"])
+    )
+    radius = (
+        "all earlier eligible words within each book"
+        if parameters["window_left"] == 0
+        else f"the preceding {parameters['window_left']} eligible words"
+    )
     return (
-        "Supplementary Figure S1. Descriptive distribution of stress-defined "
-        "word-final correspondences across the Pentateuch under the repository's "
-        "default STRICT settings. The map shows the local proportion of eligible "
-        "words participating in at least one accepted correspondence. Complete "
-        "matching rules, default parameters, and sensitivity options are documented "
-        "in the accompanying repository protocol."
+        "Demonstrative distribution of word-final "
+        "correspondences under the documented final-marked-vowel heuristic. "
+        f"Matching: {matching}; identical normalized words: {parameters['exact_words']}. "
+        f"Each eligible word is compared with {radius}. "
+        f"Displayed metric: {metric_label(parameters['metric'])}. "
+        f"Local windows contain up to {parameters['density_window']} eligible words "
+        f"and advance by {parameters['step']} eligible words. "
+        "Horizontal position is normalized separately to 0–100% of each book's eligible-word sequence; equal strip widths do not represent equal book lengths. The n labels give eligible-word counts. Matching distances and local windows use actual word counts, not percentages. The shared color scale represents local proportions, not absolute numbers of words. "
+        "The map illustrates the operational rule; it is not a test of poetic status "
+        "or a complete model of Hebrew lexical stress."
     )
 
 

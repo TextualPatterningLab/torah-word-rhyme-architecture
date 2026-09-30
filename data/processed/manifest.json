@@ -1,8 +1,8 @@
 {
   "schema": "torah_word_rhyme.word-rhyme-preprocessing-run.v2",
-  "created_utc": "2026-09-22T11:15:33+00:00",
-  "rules": "simple-v1",
-  "script_sha256": "44f87828adc667eab4c89d453206e042e7f0f37a5ad69b5889689cc2204a0bd9",
+  "created_utc": "2026-09-29T13:55:39+00:00",
+  "rules": "simple-v2-pashta",
+  "script_sha256": "6d5c49d86f638538b2cc7f6b7a19a0c9d9e96cdf4925b08f4cf1d30abe483ab6",
   "books": [
     {
       "book": "genesis",
@@ -16,7 +16,7 @@
         "upper_dot_ignored": 14
       },
       "source_sha256": "6834b3628a75b0f0b2eb32c2c94f45056d672d4f2bc853a612d57508ee3d99d4",
-      "output_sha256": "4b26608cbca66a80a93b20ed282a4bf171e0fe9cfc1982beca42184d742895c0"
+      "output_sha256": "ca7b8bd0f71faf019633ac182a7563366fd444a24deb2db45a1c19d42676ab0f"
     },
     {
       "book": "exodus",
@@ -30,7 +30,7 @@
         "upper_dot_ignored": 0
       },
       "source_sha256": "addf081ae363fff1a1053f617de7f82a076ac965e7a287c831c99a11df6a20c6",
-      "output_sha256": "598db9cd2332f6984b700f43e37d5fbe67e20c769198aa48d1fa9e79d31933fe"
+      "output_sha256": "fe0692d481c4c75447c63c83d036a3938e410baff633f172a8453d265b6aeff6"
     },
     {
       "book": "leviticus",
@@ -44,7 +44,7 @@
         "upper_dot_ignored": 0
       },
       "source_sha256": "fc80084f0ee17c457d628fc4294e09f949b263e4515bee6e3a258562df4edd1e",
-      "output_sha256": "49fe6bfc550a5d7955884d18abe2d2ecb6536369d09ef491cbd63a28fed43de6"
+      "output_sha256": "dd13c9b75d56fc362ed35d3e58ebd3c55cb0ef9acf90142f4b77cfb9e7ae588e"
     },
     {
       "book": "numbers",
@@ -58,7 +58,7 @@
         "upper_dot_ignored": 8
       },
       "source_sha256": "34af14e6062d6b608f6db68dc5e89ab89b496e5d4d576dccee5a48ec9fb81760",
-      "output_sha256": "5bed3ba3af0031740b65ffbb27b15217e9d7d460e06c3a31bd5f9eeb89fdbac1"
+      "output_sha256": "facc6f130101042f065958efd7f773f23e468f9fb4670146ac5ea2dafc3824ed"
     },
     {
       "book": "deuteronomy",
@@ -72,7 +72,7 @@
         "upper_dot_ignored": 10
       },
       "source_sha256": "61cffe3f21612c61afa1a3c1486ef6539affa22448bf45ed690b2fa976cbfa14",
-      "output_sha256": "656eb28b1ec3dd4764d89517fb0b57fad9482c6c10a776d41ec6aa72a2140c5c"
+      "output_sha256": "9a5cbb5c9ba32a07693fc7f8aa5cb0c3523ca6035af290ff0ea1f3fc13814748"
     }
   ]
 }

@@ -1,17 +1,18 @@
-# Torah Poetic Organization — Passage Inspection and Supplementary Materials
+# Torah Poetic Organization — Inspection and Demonstration Toolkit
 
-Anonymous companion repository for a study of poetic organization in the Torah.
+Anonymous research repository for inspecting selected forms of sound recurrence and poetic organization in the Torah.
 
-The repository is designed as a passage-level inspection and supplementary-material companion. It provides:
+The repository is designed as a standalone, reusable research resource. It provides:
 
 1. a frozen, auditable Torah text snapshot and deterministic computational transliteration;
-2. a passage-inspection tool for examining stress/marked-vowel word-final correspondences in any selected Torah range;
+2. a passage-inspection tool for examining marked-vowel word-final correspondences in any selected Torah range;
 3. a documented set of optional consonantal similarity settings for sensitivity inspection;
-4. an extended Example Catalogue used as supplementary close-reading material;
+4. an extended Example Catalogue for close-reading examples beyond the terminal matching rule;
 5. experimental rhythmic audio realizations with listening notes;
-6. an optional descriptive distribution visualization using the same word-final matching engine.
+6. an optional descriptive distribution visualization using the same word-final matching engine;
+7. small regression tests for selected preprocessing rules.
 
-The inspection tool is intended to make the matching rules transparent and reproducible. It does not decide literary function, authorial intention, genre, historical meter, or melody.
+The digital tools are intentionally limited and transparent. The passage inspector implements one reproducible final-marked-vowel heuristic; it is not a complete lexical-stress, pronunciation, morphology, or poetics model. The repeated-pashta correction and remaining limitations are documented in Protocol 1. The tools do not decide literary function, authorial intention, genre, historical meter, or melody.
 
 ## Start here
 
@@ -91,7 +92,7 @@ results/passages/deuteronomy_11-10_11-15_strict/
 
 ## Descriptive distribution visualization
 
-The repository also provides an optional Pentateuch-wide visualization of the same stress-defined word-final correspondence rule:
+The repository also provides an optional Pentateuch-wide visualization of the same final-marked-vowel correspondence rule:
 
 ```bat
 run\visualize_distribution.bat --label default_strict
@@ -99,25 +100,29 @@ run\visualize_distribution.bat --label default_strict
 
 The default view uses strict segment identity, includes exact repeated words, strips no morphological endings, compares each eligible word with the preceding 20 eligible words, and maps local participation in 250-word windows stepped by 50 eligible words. The five books are displayed under one shared within-run scale with a blue-to-purple palette.
 
+Horizontal position is normalized separately to 0–100% of each book's eligible-word sequence; equal strip widths do not represent equal book lengths. The n labels give eligible-word counts. Matching distances and local windows use actual word counts, not percentages. The shared color scale represents local proportions, not absolute numbers of words.
+
 The visualization requires Matplotlib, installed separately so the passage-inspection tool remains dependency-free:
 
 ```bat
 python -m pip install -r requirements-visualization.txt
 ```
 
-Each run writes the same figure as **SVG, PDF, and 300-dpi PNG**, together with `density.tsv`, `summary.json`, and a parameter-matched `caption.txt`. The PDF is suitable for use as a descriptive Supplementary Figure.
+Each run writes the same visualization as **SVG, PDF, and 300-dpi PNG**, together with `density.tsv`, `summary.json`, and a parameter-matched `caption.txt`.
 
 The tool accepts the same optional consonantal similarity switches as passage inspection, as well as `--exact-words exclude`, alternative comparison radii, local-window sizes, step sizes, and alternative display palettes. Full details are in `protocols/04_DISTRIBUTION_VISUALIZATION.md`.
 
-This visualization is **descriptive and exploratory**. It is not a comparison with an external control corpus, a significance test, a poetry classifier, or evidence that the Torah is statistically exceptional relative to other Hebrew corpora. The committed default output is provided so readers can see one fixed parameterization and regenerate it exactly.
+This visualization is **descriptive and exploratory**. It is not a comparison with an external control corpus, a significance test, a poetry classifier, or evidence that the Torah is statistically exceptional relative to other Hebrew corpora. The committed default output is provided so users can inspect one fixed parameterization and regenerate the same data and visual output.
 
-## Supplementary examples and audio
+## Example Catalogue and audio
 
 `examples/` contains the extended **Torah Poetic Organization — Example Catalogue**, which distinguishes core, supporting, textual-form, exploratory, and orientation examples. It includes mechanisms that the terminal inspection tool intentionally does not attempt to classify, such as medial echoes, consonantal fields, junctional effects, formulaic recurrence, and long-range rhetorical relations.
 
-`audio/` contains experimental rhythmic realizations and accompanying listening notes. They are listening aids, not reconstructions of ancient melody or historical meter. The Cubase tempo/meter values documented for a recording describe that realization only.
+`audio/` contains preliminary rhythmic sketches and accompanying listening notes. They illustrate approximate rhythmic delivery and are provided as listening aids, not as reconstructions of ancient melody or historical meter. The documented Cubase tempo/meter values describe the individual realizations only.
 
-The *Ana BeKoach* realization is explicitly comparative: its dense recurrent endings and short cadential units make several sound-organizational mechanisms easy to perceive before analogous but more distributed relations are considered in biblical examples. It is not part of the Torah corpus and is not evidence for the Torah-based claims of the study.
+The *Ana BeKoach* realization is explicitly comparative: its dense recurrent endings and short cadential units make several sound-organizational mechanisms easy to perceive before analogous but more distributed relations are considered in biblical examples. It is not part of the Torah corpus and is not evidence for Torah-wide conclusions.
+
+See `protocols/03_EXAMPLES_AND_AUDIO.md` for the scope and status of these materials.
 
 ## Frozen text and preprocessing
 
@@ -130,7 +135,7 @@ data/processed/    machine corpus + readable computational transliteration
 
 The downloader requests the Sefaria Hebrew version titled `Tanach with Ta'amei Hamikra` and rejects silent fallback to another version. Qere supplied by the source is used for the performed reading stream; the raw source preserves the original source notation for audit.
 
-The computational transliteration is deliberately deterministic and narrower than the pronunciation-oriented transliteration used in article examples. See `protocols/01_SOURCE_AND_PREPROCESSING.md`.
+The computational transliteration is deliberately deterministic and narrower than pronunciation-oriented transliteration used in the close-reading examples. See `protocols/01_SOURCE_AND_PREPROCESSING.md`.
 
 ## Rebuilding the frozen corpus
 
@@ -143,6 +148,16 @@ run\preprocess_corpus.bat
 
 `download_sources.bat` reuses and validates the frozen local snapshot unless `--refresh` is passed.
 
+## Tests
+
+Run the included regression tests with:
+
+```bat
+python -m unittest discover -s tests -v
+```
+
+The tests are small fixtures for selected preprocessing behavior; they are not a corpus-wide validation of Hebrew stress or pronunciation.
+
 ## Repository layout
 
 ```text
@@ -150,9 +165,14 @@ audio/             experimental rhythmic realizations + listening notes
 data/raw/          frozen Sefaria source snapshot
 data/processed/    deterministic analytical corpus
 examples/          extended Example Catalogue
-protocols/         source, inspection, and supplement specifications
+protocols/         source, inspection, examples/audio, and visualization specifications
 results/passages/  reproducible passage-inspection outputs
 results/distribution/default_strict/  committed default descriptive map + audit tables
 run/               Windows launchers
 src/               downloader, preprocessing, inspection, and visualization code
+tests/             regression fixtures for selected preprocessing rules
 ```
+
+## Version
+
+`VERSION` identifies the repository release. Revision notes are recorded in `CHANGELOG.md`.

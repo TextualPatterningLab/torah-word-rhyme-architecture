@@ -1,6 +1,6 @@
 # Experimental rhythmic realizations
 
-This directory contains experimental rhythmic realizations of selected texts discussed in the article and in the Example Catalogue.
+This directory contains experimental rhythmic realizations of selected texts used as independent listening and close-reading examples.
 
 The recordings have a limited analytical purpose: they make proposed grouping, recurrence, accentual grouping, and cadential relations audible and allow the listener to test whether those relations can be sustained in continuous performance. They are experimental realizations, not reconstructions of an ancient melody or historical meter.
 
@@ -30,3 +30,7 @@ For each recording, the accompanying Markdown file gives:
 - `ana_bekoach.md` — text, analytical notes, Cubase project settings, and recording information for that audio file.
 
 *Ana BeKoach* is included only as a comparative listening example. It is not part of the Torah corpus used by the passage-inspection tool.
+
+## Status of the recordings
+
+These preliminary recordings illustrate approximately how the selected texts can fit within a rhythmic framework. Minor variations in timing, pitch, and stress are part of the provisional performances. The recordings serve as listening aids; interpretation should remain grounded in the text itself. The supplied transcriptions give the intended reading, rather than a time-aligned record of every sung detail.

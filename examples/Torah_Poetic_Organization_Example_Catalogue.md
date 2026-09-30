@@ -16,7 +16,7 @@ Evidence is graded. Exact lexical repetition, received phrase or verse closure, 
 
 All Torah references and displayed Torah forms in this version were checked against the repository's frozen Sefaria snapshot, version 'Tanach with Ta'amei Hamikra'. Display transcription follows the project's pronunciation-oriented conventions rather than the deterministic repository transliteration; known differences between the two are stated only where they affect analysis.
 
-Psalm 40.8-9 and Psalm 104.4-5 were checked against Miqra According to the Masorah (MAM) on Sefaria. Ana Be-koach was checked against Sefaria's Siddur Ashkenaz text; liturgical wording and pronunciation can vary by rite.
+Psalm 40.8-9 and Psalm 104.4-5 were checked against Miqra According to the Masorah (MAM) on Sefaria. Ana Be-koach is presented in the author-supplied listening text, retaining the attested rachamei tzidkatekha variant. It is not a diplomatic reproduction of Sefaria's Metsudah Siddur Ashkenaz version, which reads rachamem. See the textual note in section 5.3; displayed vocalization and pronunciation are not an attribution to a particular historical rite.
 
 Biblical references use chapter.verse style (Gen. 1.1-5). Repository command-line ranges may still use chapter:verse syntax because that is the tool's input format.
 
@@ -81,7 +81,7 @@ lo yetze ba-yovel
 
 **What it demonstrates.** The received qere in asher lo choma joins a dense series of lo forms already present in the verse, so the read form participates in the audible chain.
 
-**Interpretive note.** The example concerns the audible function of the received qere within the verse; the qere/ketiv distinction itself remains a separate textual fact.
+**Interpretive note.** Both the ketiv lo (לא) and the qere lo (לו) have the same pronunciation under the adopted convention. The example concerns the participation of the received reading in the chain; it does not show a new sound correspondence created by the qere/ketiv distinction.
 
 ### 1.3 Deuteronomy 21.15-16 - senu'ah, ha-senu'ah, la-seni'ah | ve-hayah
 
@@ -131,11 +131,12 @@ Deut. 18.10-14:  ba-esh ... u-menachesh ... ve-doresh ... yoresh
 **Why this example is here.** This conspicuous pair is useful precisely because the present STRICT protocol does not classify it as a full stress-defined rhyme. It illustrates the difference between a broader auditory resemblance and a computationally strict terminal match.
 
 ```text
-... Yisrael halkhu ba-yabashah betokh ha-yam |
-va-yosha A-donai bayom ha-hu ...
+U-vnei Yisrael halkhu ba-yabashah be-tokh ha-yam,
+ve-hamayim lahem chomah mi-yeminam u-mi-semolam. |
+Va-yosha A-donai ba-yom ha-hu ...
 ```
 
-**What it demonstrates.** The -yabashah / -yosha resemblance becomes salient directly across the verse boundary.
+**What it demonstrates.** The proposed -yabashah / -yosha echo spans the latter part of v. 29 and the opening of v. 30. Seven words intervene after ba-yabashah before va-yosha; the two forms are not adjacent to the same verse boundary.
 
 **Interpretive note.** Under the current stress-defined protocol, ba-yabashah and va-yosha have different full terminal signatures; the relation is therefore classified as a broader cross-verse echo rather than a STRICT match.
 
@@ -232,7 +233,7 @@ ve-hayah im-nashakh ha-nachash et-ish,
 ve-hibbit el-nechash ha-nechoshet va-chai.
 ```
 
-**What it demonstrates.** Nechash / ha-nachash and nechoshet repeatedly share n-ch-sh material, while nashakh rearranges part of the same inventory.
+**What it demonstrates.** Nechash / ha-nachash and nechoshet repeatedly share n-ch-sh material, while nashakh offers a looser resonance involving kh rather than ch in the declared transcription; it is not an exact permutation of the same consonants.
 
 **Interpretive note.** The relation is consonantal resonance rather than terminal rhyme.
 
@@ -278,7 +279,7 @@ Gen. 22.18: ... asher shamá'ta be-qoli.
 ... s'fat | ha-yam ...
 ```
 
-**What it demonstrates.** A possible junctional contribution to the wider Aqedah sound field in continuous delivery.
+**Research question.** Could continuous delivery of this phrase contribute to a wider sound field? A specific comparison partner and segmental rule have not yet been established for this proposal; it is not counted as demonstrated correspondence.
 
 **Interpretive note.** The proposed effect belongs to continuous oral delivery across the word boundary and is therefore perceptual rather than orthographic.
 
@@ -316,7 +317,7 @@ va-yomer elav Avraham
 va-yomer hineni.
 ```
 
-**What it demonstrates.** Ha-eleh and nisa provide partial vowel/consonant cues before the stronger closing hineni.
+**Research question.** Ha-eleh and nisa have been proposed as partial cues before hineni. A reproducible rule for selecting and combining those cues has not been specified, so this entry records a listening hypothesis rather than an established composite match.
 
 **Interpretive note.** This is a cumulative, perception-dependent relation and is therefore kept distinct from direct terminal rhyme.
 
@@ -336,7 +337,7 @@ Yosef ben sheva-'esre shanah, hayah
 ro'eh et echav ...
 ```
 
-**What it demonstrates.** A possible field across yeshev, aviv, Kena'an, and the later echav, after which echav recurs more explicitly.
+**What it demonstrates.** A possible field across yeshev, aviv, Kena'an, and the later echav, with a further explicit occurrence of echav in Gen. 37.4, outside the displayed range.
 
 **Interpretive note.** This entry defines a possible perceptual mechanism for distributed sound fields; its status remains exploratory.
 
@@ -450,7 +451,7 @@ Vayomer E-lohim yehi or, vayehi or.
 Vayar E-lohim et ha'or ki tov;
 vayavdel E-lohim bein ha'or u-vein hachoshekh.
 Vayiqra E-lohim la'or yom, ve-lachoshekh qara laila.
-Vayehi erev vayehi voker, yom echad.
+Vayehi erev vayehi voqer, yom echad.
 ```
 
 **What it demonstrates.** Tohu-vohu and yehi or-vayehi or operate locally; tehom-yom supplies a longer-range return; E-lohim formulas and evening-morning closures organize larger spans.
@@ -611,7 +612,7 @@ La'asot-retzonkha E-lohai chafatzti
 ve-toratkha be-tokh me'ai.
 ```
 
-**What it demonstrates.** Alai / me'ai form a paired ending; ba'ti / chafatzti adds a cross-line relation.
+**What it demonstrates.** Alai / me'ai form a paired ending; ba'ti / chafatzti adds a partial cross-line correspondence, not identity of the full stressed ending.
 
 ### 5.2 Psalm 104.4-5 - grammatical comparator for marked-form analysis
 
@@ -633,7 +634,7 @@ Ps. 104.5: ... olam va'ed.
 ### 5.3 Ana Be-koach - dense interlaced rhyme as auditory orientation
 
 **Status:** ORIENTATION
-**Reference:** Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Ana Be-koach
+**Reference:** Ana Be-koach, author-supplied listening text; rachamei variant (see textual note below)
 **Mechanism:** dense terminal fields; parallel imperatives; percussive cadence
 
 **Why this example is here.** This example is pedagogical rather than evidential for the Torah. Its dense rhyme fields and repeated imperatives make interlaced sound organization unusually easy to hear.
@@ -644,11 +645,13 @@ Qabel rinat amekha, sagveinu, tahareinu nora;
 Na gibbor, dorshei yichudekha, kevavat shomrem;
 Barekhem, taharem, rachamei tzidkatekha tamid gamlem;
 Chasin qadosh, berov tuv'kha, nahel adatekha;
-Yachid ge'eh, le'amkha p'neh, zochrei qedushatekha;
+Yachid ge'eh, le'amkha p'neh, zokhrei qedushatekha;
 Shav'atenu qabel, ushma' tza'akatenu, yodea ta'alumot;
-Baruch shem kevod malkhuto le'olam va'ed.
+Barukh shem kevod malkhuto le'olam va'ed.
 ```
 
 **What it demonstrates.** Several end fields interact with repeated imperatives such as qabel / barekhem / qabel.
 
-**Interpretive note.** The displayed wording follows the Sefaria Siddur Ashkenaz witness used for this catalogue. The value of the example here is its exceptionally dense, easily audible interlacing of rhyme and imperative cadence.
+**Textual note.** The displayed listening text retains rachamei tzidkatekha. The alternative rachamem occurs in the Metsudah Siddur Ashkenaz version on Sefaria; it is not substituted here. Avraham Weiss discusses both variants in his study of the text of Ana Be-koach, published in Ha-Maayan: https://www.machonso.org/hamaayan/?gilayon=54&id=1587 (accessed 29 September 2026). This reference documents the variant, not the provenance of the recording or every displayed vocalization.
+
+**Interpretive note.** The example serves as auditory orientation. Its contribution is the interlacing of recurrent endings and imperative cadence, not a historical argument about the Torah.

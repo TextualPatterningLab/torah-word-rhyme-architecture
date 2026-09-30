@@ -18,6 +18,7 @@ SHEVA = "\u05b0"
 SHIN_DOT = "\u05c1"
 SIN_DOT = "\u05c2"
 METEG = "\u05bd"
+PASHTA = "\u0599"
 MAQAF = "\u05be"
 PASEQ = "\u05c0"
 SOF_PASUQ = "\u05c3"
@@ -233,10 +234,18 @@ def target_unit_for_accent(units: list, infos: list[dict], source_index: int, ma
 
 
 def accent_targets(units: list, infos: list[dict]) -> list[int]:
+    # A doubled pashta repeats the sign at word end; the internal occurrence
+    # identifies stress. Do not turn the postpositive repeat into another acute.
+    pashta_positions = [i for i, (_letter, marks) in enumerate(units) if PASHTA in marks]
+    repeated_final_pashta = (
+        len(pashta_positions) == 2 and pashta_positions[-1] == len(units) - 1
+    )
     targets: list[int] = []
     for index, (_letter, marks) in enumerate(units):
         for mark_index, mark in enumerate(marks):
             if mark in ACCENT_MARKS:
+                if mark == PASHTA and repeated_final_pashta and index == pashta_positions[-1]:
+                    continue
                 targets.append(target_unit_for_accent(units, infos, index, mark_index))
     return targets
 
@@ -440,7 +449,7 @@ def process_book(source_path: Path, output_dir: Path, key: str) -> dict:
         "key": key,
         "book": source["book"],
         "source_sha256": sha(source_path),
-        "transliteration_rules": "simple-v1",
+        "transliteration_rules": "simple-v2-pashta",
         "words": words,
     }
     output_path.write_bytes((json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
@@ -474,7 +483,7 @@ def main() -> int:
     manifest = {
         "schema": "torah_word_rhyme.word-rhyme-preprocessing-run.v2",
         "created_utc": now(),
-        "rules": "simple-v1",
+        "rules": "simple-v2-pashta",
         "script_sha256": sha(Path(__file__)),
         "books": summaries,
     }

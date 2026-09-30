@@ -3,7 +3,7 @@
   "key": "numbers",
   "book": "Numbers",
   "source_sha256": "34af14e6062d6b608f6db68dc5e89ab89b496e5d4d576dccee5a48ec9fb81760",
-  "transliteration_rules": "simple-v1",
+  "transliteration_rules": "simple-v2-pashta",
   "words": [
     {
       "index": 1,
@@ -561,8 +561,8 @@
       "verse": 5,
       "word_in_verse": 1,
       "hebrew": "וְאֵ֙לֶּה֙",
-      "transliteration": "veélé",
-      "marked_vowels": 2,
+      "transliteration": "veéle",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -8941,8 +8941,8 @@
       "verse": 32,
       "word_in_verse": 13,
       "hebrew": "אֶ֙לֶף֙",
-      "transliteration": "éléf",
-      "marked_vowels": 2,
+      "transliteration": "élef",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -10031,8 +10031,8 @@
       "verse": 7,
       "word_in_verse": 5,
       "hebrew": "מִשְׁמֶ֙רֶת֙",
-      "transliteration": "mishmérét",
-      "marked_vowels": 2,
+      "transliteration": "mishméret",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -10341,8 +10341,8 @@
       "verse": 9,
       "word_in_verse": 8,
       "hebrew": "הֵ֙מָּה֙",
-      "transliteration": "hémá",
-      "marked_vowels": 2,
+      "transliteration": "héma",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -11571,8 +11571,8 @@
       "verse": 21,
       "word_in_verse": 2,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -12231,8 +12231,8 @@
       "verse": 27,
       "word_in_verse": 6,
       "hebrew": "וּמִשְׁפַּ֙חַת֙",
-      "transliteration": "umishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "umishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -12851,8 +12851,8 @@
       "verse": 33,
       "word_in_verse": 2,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -14781,8 +14781,8 @@
       "verse": 47,
       "word_in_verse": 7,
       "hebrew": "הַקֹּ֙דֶשׁ֙",
-      "transliteration": "haqódésh",
-      "marked_vowels": 2,
+      "transliteration": "haqódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -18941,8 +18941,8 @@
       "verse": 26,
       "word_in_verse": 13,
       "hebrew": "הַמִּזְבֵּ֙חַ֙",
-      "transliteration": "hamizbéách",
-      "marked_vowels": 2,
+      "transliteration": "hamizbéach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -25261,8 +25261,8 @@
       "verse": 22,
       "word_in_verse": 4,
       "hebrew": "הָאֵ֙לֶּה֙",
-      "transliteration": "haélé",
-      "marked_vowels": 2,
+      "transliteration": "haéle",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -30411,8 +30411,8 @@
       "verse": 2,
       "word_in_verse": 1,
       "hebrew": "וַיַּקְרִ֙יבוּ֙",
-      "transliteration": "vayaqrívú",
-      "marked_vowels": 2,
+      "transliteration": "vayaqrívu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -31381,8 +31381,8 @@
       "verse": 9,
       "word_in_verse": 7,
       "hebrew": "הַקֹּ֙דֶשׁ֙",
-      "transliteration": "haqódésh",
-      "marked_vowels": 2,
+      "transliteration": "haqódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -31661,8 +31661,8 @@
       "verse": 11,
       "word_in_verse": 11,
       "hebrew": "יַקְרִ֙יבוּ֙",
-      "transliteration": "yaqrívú",
-      "marked_vowels": 2,
+      "transliteration": "yaqrívu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -39881,8 +39881,8 @@
       "verse": 84,
       "word_in_verse": 15,
       "hebrew": "כֶ֙סֶף֙",
-      "transliteration": "khéséf",
-      "marked_vowels": 2,
+      "transliteration": "khésef",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -40811,8 +40811,8 @@
       "verse": 89,
       "word_in_verse": 14,
       "hebrew": "הַכַּפֹּ֙רֶת֙",
-      "transliteration": "hakapórét",
-      "marked_vowels": 2,
+      "transliteration": "hakapóret",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -41681,8 +41681,8 @@
       "verse": 7,
       "word_in_verse": 10,
       "hebrew": "תַ֙עַר֙",
-      "transliteration": "táár",
-      "marked_vowels": 2,
+      "transliteration": "táar",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -42821,8 +42821,8 @@
       "verse": 16,
       "word_in_verse": 4,
       "hebrew": "הֵ֙מָּה֙",
-      "transliteration": "hémá",
-      "marked_vowels": 2,
+      "transliteration": "héma",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -45391,8 +45391,8 @@
       "verse": 7,
       "word_in_verse": 3,
       "hebrew": "הָהֵ֙מָּה֙",
-      "transliteration": "hahémá",
-      "marked_vowels": 2,
+      "transliteration": "hahéma",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -46051,8 +46051,8 @@
       "verse": 12,
       "word_in_verse": 3,
       "hebrew": "מִמֶּ֙נּוּ֙",
-      "transliteration": "miménú",
-      "marked_vowels": 2,
+      "transliteration": "miménu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -46461,8 +46461,8 @@
       "verse": 14,
       "word_in_verse": 6,
       "hebrew": "פֶ֙סַח֙",
-      "transliteration": "fésách",
-      "marked_vowels": 2,
+      "transliteration": "fésach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -48291,8 +48291,8 @@
       "verse": 3,
       "word_in_verse": 4,
       "hebrew": "אֵלֶ֙יךָ֙",
-      "transliteration": "eléykhá",
-      "marked_vowels": 2,
+      "transliteration": "eléykha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -48401,8 +48401,8 @@
       "verse": 4,
       "word_in_verse": 5,
       "hebrew": "אֵלֶ֙יךָ֙",
-      "transliteration": "eléykhá",
-      "marked_vowels": 2,
+      "transliteration": "eléykha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -50981,8 +50981,8 @@
       "verse": 29,
       "word_in_verse": 20,
       "hebrew": "אִתָּ֙נוּ֙",
-      "transliteration": "itánú",
-      "marked_vowels": 2,
+      "transliteration": "itánu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -51271,8 +51271,8 @@
       "verse": 31,
       "word_in_verse": 10,
       "hebrew": "חֲנֹתֵ֙נוּ֙",
-      "transliteration": "chanoténú",
-      "marked_vowels": 2,
+      "transliteration": "chanoténu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -51761,8 +51761,8 @@
       "verse": 35,
       "word_in_verse": 8,
       "hebrew": "וְיָפֻ֙צוּ֙",
-      "transliteration": "veyafútsú",
-      "marked_vowels": 2,
+      "transliteration": "veyafútsu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -52391,8 +52391,8 @@
       "verse": 5,
       "word_in_verse": 1,
       "hebrew": "זָכַ֙רְנוּ֙",
-      "transliteration": "zakhárnú",
-      "marked_vowels": 2,
+      "transliteration": "zakhárnu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -53191,8 +53191,8 @@
       "verse": 11,
       "word_in_verse": 6,
       "hebrew": "הֲרֵעֹ֙תָ֙",
-      "transliteration": "hareótá",
-      "marked_vowels": 2,
+      "transliteration": "hareóta",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -54561,8 +54561,8 @@
       "verse": 18,
       "word_in_verse": 14,
       "hebrew": "יַאֲכִלֵ֙נוּ֙",
-      "transliteration": "yaakhilénú",
-      "marked_vowels": 2,
+      "transliteration": "yaakhilénu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -55101,8 +55101,8 @@
       "verse": 21,
       "word_in_verse": 5,
       "hebrew": "אֶ֙לֶף֙",
-      "transliteration": "éléf",
-      "marked_vowels": 2,
+      "transliteration": "élef",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -55761,8 +55761,8 @@
       "verse": 25,
       "word_in_verse": 8,
       "hebrew": "הָר֙וּחַ֙",
-      "transliteration": "harúách",
-      "marked_vowels": 2,
+      "transliteration": "harúach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -56041,8 +56041,8 @@
       "verse": 26,
       "word_in_verse": 14,
       "hebrew": "וְהֵ֙מָּה֙",
-      "transliteration": "vehémá",
-      "marked_vowels": 2,
+      "transliteration": "vehéma",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -57021,8 +57021,8 @@
       "verse": 33,
       "word_in_verse": 2,
       "hebrew": "עוֹדֶ֙נּוּ֙",
-      "transliteration": "odénú",
-      "marked_vowels": 2,
+      "transliteration": "odénu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -58341,8 +58341,8 @@
       "verse": 8,
       "word_in_verse": 12,
       "hebrew": "וּמַדּ֙וּעַ֙",
-      "transliteration": "umadúá",
-      "marked_vowels": 2,
+      "transliteration": "umadúa",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -58681,8 +58681,8 @@
       "verse": 11,
       "word_in_verse": 10,
       "hebrew": "עָלֵ֙ינוּ֙",
-      "transliteration": "aléynú",
-      "marked_vowels": 2,
+      "transliteration": "aléynu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -58991,8 +58991,8 @@
       "verse": 14,
       "word_in_verse": 5,
       "hebrew": "וְאָבִ֙יהָ֙",
-      "transliteration": "veavíá",
-      "marked_vowels": 2,
+      "transliteration": "veavía",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -59411,8 +59411,8 @@
       "verse": 2,
       "word_in_verse": 4,
       "hebrew": "וְיָתֻ֙רוּ֙",
-      "transliteration": "veyatúrú",
-      "marked_vowels": 2,
+      "transliteration": "veyatúru",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -62881,8 +62881,8 @@
       "verse": 32,
       "word_in_verse": 3,
       "hebrew": "הָאָ֙רֶץ֙",
-      "transliteration": "haáréts",
-      "marked_vowels": 2,
+      "transliteration": "haárets",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -63041,8 +63041,8 @@
       "verse": 32,
       "word_in_verse": 19,
       "hebrew": "יוֹשְׁבֶ֙יהָ֙",
-      "transliteration": "yoshvéyá",
-      "marked_vowels": 2,
+      "transliteration": "yoshvéya",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -63221,8 +63221,8 @@
       "verse": 33,
       "word_in_verse": 10,
       "hebrew": "בְעֵינֵ֙ינוּ֙",
-      "transliteration": "veeynéynú",
-      "marked_vowels": 2,
+      "transliteration": "veeynéynu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -63371,8 +63371,8 @@
       "verse": 2,
       "word_in_verse": 1,
       "hebrew": "וַיִּלֹּ֙נוּ֙",
-      "transliteration": "vayilónú",
-      "marked_vowels": 2,
+      "transliteration": "vayilónu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -63501,8 +63501,8 @@
       "verse": 2,
       "word_in_verse": 14,
       "hebrew": "מַ֙תְנוּ֙",
-      "transliteration": "mátnú",
-      "marked_vowels": 2,
+      "transliteration": "mátnu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -64261,8 +64261,8 @@
       "verse": 8,
       "word_in_verse": 3,
       "hebrew": "בָּ֙נוּ֙",
-      "transliteration": "bánú",
-      "marked_vowels": 2,
+      "transliteration": "bánu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -64291,8 +64291,8 @@
       "verse": 8,
       "word_in_verse": 6,
       "hebrew": "אֹתָ֙נוּ֙",
-      "transliteration": "otánú",
-      "marked_vowels": 2,
+      "transliteration": "otánu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -64861,8 +64861,8 @@
       "verse": 11,
       "word_in_verse": 11,
       "hebrew": "אָ֙נָה֙",
-      "transliteration": "áná",
-      "marked_vowels": 2,
+      "transliteration": "ána",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -65841,8 +65841,8 @@
       "verse": 18,
       "word_in_verse": 3,
       "hebrew": "אַפַּ֙יִם֙",
-      "transliteration": "apáyím",
-      "marked_vowels": 2,
+      "transliteration": "apáyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -66101,8 +66101,8 @@
       "verse": 19,
       "word_in_verse": 9,
       "hebrew": "נָשָׂ֙אתָה֙",
-      "transliteration": "nasátá",
-      "marked_vowels": 2,
+      "transliteration": "nasáta",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -66651,8 +66651,8 @@
       "verse": 24,
       "word_in_verse": 6,
       "hebrew": "אַחֶ֙רֶת֙",
-      "transliteration": "achérét",
-      "marked_vowels": 2,
+      "transliteration": "achéret",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -66711,8 +66711,8 @@
       "verse": 24,
       "word_in_verse": 12,
       "hebrew": "הָאָ֙רֶץ֙",
-      "transliteration": "haáréts",
-      "marked_vowels": 2,
+      "transliteration": "haárets",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -67171,8 +67171,8 @@
       "verse": 28,
       "word_in_verse": 4,
       "hebrew": "אָ֙נִי֙",
-      "transliteration": "ání",
-      "marked_vowels": 2,
+      "transliteration": "áni",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -67491,8 +67491,8 @@
       "verse": 30,
       "word_in_verse": 7,
       "hebrew": "נָשָׂ֙אתִי֙",
-      "transliteration": "nasátí",
-      "marked_vowels": 2,
+      "transliteration": "nasáti",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -68491,8 +68491,8 @@
       "verse": 37,
       "word_in_verse": 1,
       "hebrew": "וַיָּמֻ֙תוּ֙",
-      "transliteration": "vayamútú",
-      "marked_vowels": 2,
+      "transliteration": "vayamútu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -69761,8 +69761,8 @@
       "verse": 2,
       "word_in_verse": 10,
       "hebrew": "אֶ֙רֶץ֙",
-      "transliteration": "éréts",
-      "marked_vowels": 2,
+      "transliteration": "érets",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -69891,8 +69891,8 @@
       "verse": 3,
       "word_in_verse": 8,
       "hebrew": "נֶ֙דֶר֙",
-      "transliteration": "nédér",
-      "marked_vowels": 2,
+      "transliteration": "néder",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -69961,8 +69961,8 @@
       "verse": 3,
       "word_in_verse": 15,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -70151,8 +70151,8 @@
       "verse": 5,
       "word_in_verse": 2,
       "hebrew": "לַנֶּ֙סֶךְ֙",
-      "transliteration": "lanésékh",
-      "marked_vowels": 2,
+      "transliteration": "lanésekh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -70261,8 +70261,8 @@
       "verse": 6,
       "word_in_verse": 2,
       "hebrew": "לָאַ֙יִל֙",
-      "transliteration": "laáyíl",
-      "marked_vowels": 2,
+      "transliteration": "laáyil",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -72321,8 +72321,8 @@
       "verse": 24,
       "word_in_verse": 16,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -74901,8 +74901,8 @@
       "verse": 2,
       "word_in_verse": 1,
       "hebrew": "וַיָּקֻ֙מוּ֙",
-      "transliteration": "vayaqúmú",
-      "marked_vowels": 2,
+      "transliteration": "vayaqúmu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -76461,8 +76461,8 @@
       "verse": 13,
       "word_in_verse": 3,
       "hebrew": "הֶֽעֱלִיתָ֙נוּ֙",
-      "transliteration": "héelitánú",
-      "marked_vowels": 3,
+      "transliteration": "héelitánu",
+      "marked_vowels": 2,
       "eligible": true
     },
     {
@@ -76801,8 +76801,8 @@
       "verse": 15,
       "word_in_verse": 4,
       "hebrew": "וַיֹּ֙אמֶר֙",
-      "transliteration": "vayómér",
-      "marked_vowels": 2,
+      "transliteration": "vayómer",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -77461,8 +77461,8 @@
       "verse": 19,
       "word_in_verse": 3,
       "hebrew": "קֹ֙רַח֙",
-      "transliteration": "qórách",
-      "marked_vowels": 2,
+      "transliteration": "qórach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -78871,8 +78871,8 @@
       "verse": 30,
       "word_in_verse": 8,
       "hebrew": "פִּ֙יהָ֙",
-      "transliteration": "píá",
-      "marked_vowels": 2,
+      "transliteration": "pía",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -79161,8 +79161,8 @@
       "verse": 32,
       "word_in_verse": 2,
       "hebrew": "הָאָ֙רֶץ֙",
-      "transliteration": "haáréts",
-      "marked_vowels": 2,
+      "transliteration": "haárets",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -79621,8 +79621,8 @@
       "verse": 35,
       "word_in_verse": 8,
       "hebrew": "וּמָאתַ֙יִם֙",
-      "transliteration": "umatáyím",
-      "marked_vowels": 2,
+      "transliteration": "umatáyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -80401,8 +80401,8 @@
       "verse": 5,
       "word_in_verse": 21,
       "hebrew": "כְקֹ֙רַח֙",
-      "transliteration": "kheqórách",
-      "marked_vowels": 2,
+      "transliteration": "kheqórach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -81141,8 +81141,8 @@
       "verse": 11,
       "word_in_verse": 12,
       "hebrew": "הַמִּזְבֵּ֙חַ֙",
-      "transliteration": "hamizbéách",
-      "marked_vowels": 2,
+      "transliteration": "hamizbéach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -81351,8 +81351,8 @@
       "verse": 12,
       "word_in_verse": 6,
       "hebrew": "וַיָּ֙רָץ֙",
-      "transliteration": "vayáráts",
-      "marked_vowels": 2,
+      "transliteration": "vayárats",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -82931,8 +82931,8 @@
       "verse": 23,
       "word_in_verse": 15,
       "hebrew": "פֶ֙רַח֙",
-      "transliteration": "férách",
-      "marked_vowels": 2,
+      "transliteration": "férach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -83681,8 +83681,8 @@
       "verse": 1,
       "word_in_verse": 8,
       "hebrew": "אָבִ֙יךָ֙",
-      "transliteration": "avíkhá",
-      "marked_vowels": 2,
+      "transliteration": "avíkha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -83871,8 +83871,8 @@
       "verse": 2,
       "word_in_verse": 7,
       "hebrew": "אָבִ֙יךָ֙",
-      "transliteration": "avíkhá",
-      "marked_vowels": 2,
+      "transliteration": "avíkha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -84091,8 +84091,8 @@
       "verse": 3,
       "word_in_verse": 11,
       "hebrew": "הַמִּזְבֵּ֙חַ֙",
-      "transliteration": "hamizbéách",
-      "marked_vowels": 2,
+      "transliteration": "hamizbéach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -84221,8 +84221,8 @@
       "verse": 4,
       "word_in_verse": 5,
       "hebrew": "מִשְׁמֶ֙רֶת֙",
-      "transliteration": "mishmérét",
-      "marked_vowels": 2,
+      "transliteration": "mishméret",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -84481,8 +84481,8 @@
       "verse": 6,
       "word_in_verse": 3,
       "hebrew": "לָקַ֙חְתִּי֙",
-      "transliteration": "laqáchtí",
-      "marked_vowels": 2,
+      "transliteration": "laqáchti",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -86421,8 +86421,8 @@
       "verse": 17,
       "word_in_verse": 18,
       "hebrew": "הַמִּזְבֵּ֙חַ֙",
-      "transliteration": "hamizbéách",
-      "marked_vowels": 2,
+      "transliteration": "hamizbéach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -87931,8 +87931,8 @@
       "verse": 26,
       "word_in_verse": 19,
       "hebrew": "מִמֶּ֙נּוּ֙",
-      "transliteration": "miménú",
-      "marked_vowels": 2,
+      "transliteration": "miménu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -88221,8 +88221,8 @@
       "verse": 28,
       "word_in_verse": 15,
       "hebrew": "מִמֶּ֙נּוּ֙",
-      "transliteration": "miménú",
-      "marked_vowels": 2,
+      "transliteration": "miménu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -90911,8 +90911,8 @@
       "verse": 14,
       "word_in_verse": 10,
       "hebrew": "הָאֹ֙הֶל֙",
-      "transliteration": "haóhél",
-      "marked_vowels": 2,
+      "transliteration": "haóhel",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -91151,8 +91151,8 @@
       "verse": 16,
       "word_in_verse": 8,
       "hebrew": "חֶ֙רֶב֙",
-      "transliteration": "chérév",
-      "marked_vowels": 2,
+      "transliteration": "chérev",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -91451,8 +91451,8 @@
       "verse": 18,
       "word_in_verse": 9,
       "hebrew": "הָאֹ֙הֶל֙",
-      "transliteration": "haóhél",
-      "marked_vowels": 2,
+      "transliteration": "haóhel",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -91561,8 +91561,8 @@
       "verse": 18,
       "word_in_verse": 20,
       "hebrew": "בַּעֶ֙צֶם֙",
-      "transliteration": "baétsém",
-      "marked_vowels": 2,
+      "transliteration": "baétsem",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -92111,8 +92111,8 @@
       "verse": 21,
       "word_in_verse": 10,
       "hebrew": "וְהַנֹּגֵ֙עַ֙",
-      "transliteration": "vehanogéá",
-      "marked_vowels": 2,
+      "transliteration": "vehanogéa",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -92791,8 +92791,8 @@
       "verse": 5,
       "word_in_verse": 2,
       "hebrew": "הֶֽעֱלִיתֻ֙נוּ֙",
-      "transliteration": "héelitúnú",
-      "marked_vowels": 3,
+      "transliteration": "héelitúnu",
+      "marked_vowels": 2,
       "eligible": true
     },
     {
@@ -92911,8 +92911,8 @@
       "verse": 5,
       "word_in_verse": 14,
       "hebrew": "וְגֶ֙פֶן֙",
-      "transliteration": "vegéfén",
-      "marked_vowels": 2,
+      "transliteration": "vegéfen",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -93021,8 +93021,8 @@
       "verse": 6,
       "word_in_verse": 7,
       "hebrew": "פֶּ֙תַח֙",
-      "transliteration": "pétách",
-      "marked_vowels": 2,
+      "transliteration": "pétach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -93341,8 +93341,8 @@
       "verse": 8,
       "word_in_verse": 18,
       "hebrew": "מַ֙יִם֙",
-      "transliteration": "máyím",
-      "marked_vowels": 2,
+      "transliteration": "máyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -94001,8 +94001,8 @@
       "verse": 12,
       "word_in_verse": 17,
       "hebrew": "תָבִ֙יאוּ֙",
-      "transliteration": "tavíú",
-      "marked_vowels": 2,
+      "transliteration": "tavíu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -94391,8 +94391,8 @@
       "verse": 15,
       "word_in_verse": 2,
       "hebrew": "אֲבֹתֵ֙ינוּ֙",
-      "transliteration": "avotéynú",
-      "marked_vowels": 2,
+      "transliteration": "avotéynu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -96571,8 +96571,8 @@
       "verse": 1,
       "word_in_verse": 12,
       "hebrew": "וַיִּלָּ֙חֶם֙",
-      "transliteration": "vayiláchém",
-      "marked_vowels": 2,
+      "transliteration": "vayiláchem",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -97111,8 +97111,8 @@
       "verse": 5,
       "word_in_verse": 6,
       "hebrew": "הֶֽעֱלִיתֻ֙נוּ֙",
-      "transliteration": "héelitúnú",
-      "marked_vowels": 3,
+      "transliteration": "héelitúnu",
+      "marked_vowels": 2,
       "eligible": true
     },
     {
@@ -97171,8 +97171,8 @@
       "verse": 5,
       "word_in_verse": 12,
       "hebrew": "לֶ֙חֶם֙",
-      "transliteration": "léchém",
-      "marked_vowels": 2,
+      "transliteration": "léchem",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -98451,8 +98451,8 @@
       "verse": 15,
       "word_in_verse": 1,
       "hebrew": "וְאֶ֙שֶׁד֙",
-      "transliteration": "veéshéd",
-      "marked_vowels": 2,
+      "transliteration": "veéshed",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -98811,8 +98811,8 @@
       "verse": 18,
       "word_in_verse": 4,
       "hebrew": "כָּר֙וּהָ֙",
-      "transliteration": "karúá",
-      "marked_vowels": 2,
+      "transliteration": "karúa",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -99221,8 +99221,8 @@
       "verse": 22,
       "word_in_verse": 12,
       "hebrew": "הַמֶּ֙לֶךְ֙",
-      "transliteration": "hamélékh",
-      "marked_vowels": 2,
+      "transliteration": "hamélekh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -100471,8 +100471,8 @@
       "verse": 31,
       "word_in_verse": 1,
       "hebrew": "וַיֵּ֙שֶׁב֙",
-      "transliteration": "vayéshév",
-      "marked_vowels": 2,
+      "transliteration": "vayéshev",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -101921,8 +101921,8 @@
       "verse": 5,
       "word_in_verse": 20,
       "hebrew": "מִמִּצְרַ֙יִם֙",
-      "transliteration": "mimitsráyím",
-      "marked_vowels": 2,
+      "transliteration": "mimitsráyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -102361,8 +102361,8 @@
       "verse": 7,
       "word_in_verse": 8,
       "hebrew": "וַיָּבֹ֙אוּ֙",
-      "transliteration": "vayavóú",
-      "marked_vowels": 2,
+      "transliteration": "vayavóu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -103151,8 +103151,8 @@
       "verse": 13,
       "word_in_verse": 4,
       "hebrew": "וַיֹּ֙אמֶר֙",
-      "transliteration": "vayómér",
-      "marked_vowels": 2,
+      "transliteration": "vayómer",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -103281,8 +103281,8 @@
       "verse": 14,
       "word_in_verse": 1,
       "hebrew": "וַיָּק֙וּמוּ֙",
-      "transliteration": "vayaqúmú",
-      "marked_vowels": 2,
+      "transliteration": "vayaqúmu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -103801,8 +103801,8 @@
       "verse": 18,
       "word_in_verse": 3,
       "hebrew": "וַיֹּ֙אמֶר֙",
-      "transliteration": "vayómér",
-      "marked_vowels": 2,
+      "transliteration": "vayómer",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -105661,8 +105661,8 @@
       "verse": 29,
       "word_in_verse": 9,
       "hebrew": "חֶ֙רֶב֙",
-      "transliteration": "chérév",
-      "marked_vowels": 2,
+      "transliteration": "chérev",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -106151,8 +106151,8 @@
       "verse": 32,
       "word_in_verse": 7,
       "hebrew": "הִכִּ֙יתָ֙",
-      "transliteration": "hikítá",
-      "marked_vowels": 2,
+      "transliteration": "hikíta",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -106291,8 +106291,8 @@
       "verse": 33,
       "word_in_verse": 1,
       "hebrew": "וַתִּרְאַ֙נִי֙",
-      "transliteration": "vatirání",
-      "marked_vowels": 2,
+      "transliteration": "vatiráni",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -107111,8 +107111,8 @@
       "verse": 37,
       "word_in_verse": 8,
       "hebrew": "אֵלֶ֙יךָ֙",
-      "transliteration": "eléykhá",
-      "marked_vowels": 2,
+      "transliteration": "eléykha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -107271,8 +107271,8 @@
       "verse": 38,
       "word_in_verse": 6,
       "hebrew": "בָ֙אתִי֙",
-      "transliteration": "vátí",
-      "marked_vowels": 2,
+      "transliteration": "váti",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -109511,8 +109511,8 @@
       "verse": 14,
       "word_in_verse": 1,
       "hebrew": "וַיִּקָּחֵ֙הוּ֙",
-      "transliteration": "vayiqachéhú",
-      "marked_vowels": 2,
+      "transliteration": "vayiqachéhu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -109571,8 +109571,8 @@
       "verse": 14,
       "word_in_verse": 7,
       "hebrew": "וַיִּ֙בֶן֙",
-      "transliteration": "vayívén",
-      "marked_vowels": 2,
+      "transliteration": "vayíven",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -109641,8 +109641,8 @@
       "verse": 15,
       "word_in_verse": 1,
       "hebrew": "וַיֹּ֙אמֶר֙",
-      "transliteration": "vayómér",
-      "marked_vowels": 2,
+      "transliteration": "vayómer",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -110341,8 +110341,8 @@
       "verse": 21,
       "word_in_verse": 3,
       "hebrew": "אָ֙וֶן֙",
-      "transliteration": "ávén",
-      "marked_vowels": 2,
+      "transliteration": "áven",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -110541,8 +110541,8 @@
       "verse": 23,
       "word_in_verse": 3,
       "hebrew": "נַ֙חַשׁ֙",
-      "transliteration": "náchásh",
-      "marked_vowels": 2,
+      "transliteration": "náchash",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -110991,8 +110991,8 @@
       "verse": 26,
       "word_in_verse": 8,
       "hebrew": "אֵלֶ֙יךָ֙",
-      "transliteration": "eléykhá",
-      "marked_vowels": 2,
+      "transliteration": "eléykha",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -112311,8 +112311,8 @@
       "verse": 7,
       "word_in_verse": 2,
       "hebrew": "מַ֙יִם֙",
-      "transliteration": "máyím",
-      "marked_vowels": 2,
+      "transliteration": "máyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -112901,8 +112901,8 @@
       "verse": 11,
       "word_in_verse": 6,
       "hebrew": "אָמַ֙רְתִּי֙",
-      "transliteration": "amártí",
-      "marked_vowels": 2,
+      "transliteration": "amárti",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -113591,8 +113591,8 @@
       "verse": 16,
       "word_in_verse": 2,
       "hebrew": "שֹׁמֵ֙עַ֙",
-      "transliteration": "shoméá",
-      "marked_vowels": 2,
+      "transliteration": "shoméa",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -113711,8 +113711,8 @@
       "verse": 17,
       "word_in_verse": 1,
       "hebrew": "אֶרְאֶ֙נּוּ֙",
-      "transliteration": "erénú",
-      "marked_vowels": 2,
+      "transliteration": "erénu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -113811,8 +113811,8 @@
       "verse": 17,
       "word_in_verse": 11,
       "hebrew": "שֵׁ֙בֶט֙",
-      "transliteration": "shévét",
-      "marked_vowels": 2,
+      "transliteration": "shévet",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -115491,8 +115491,8 @@
       "verse": 7,
       "word_in_verse": 8,
       "hebrew": "וַיָּ֙קָם֙",
-      "transliteration": "vayáqám",
-      "marked_vowels": 2,
+      "transliteration": "vayáqam",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -118151,8 +118151,8 @@
       "verse": 10,
       "word_in_verse": 15,
       "hebrew": "וּמָאתַ֙יִם֙",
-      "transliteration": "umatáyím",
-      "marked_vowels": 2,
+      "transliteration": "umatáyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -118271,8 +118271,8 @@
       "verse": 12,
       "word_in_verse": 5,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -118521,8 +118521,8 @@
       "verse": 15,
       "word_in_verse": 5,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -118951,8 +118951,8 @@
       "verse": 20,
       "word_in_verse": 6,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -119491,8 +119491,8 @@
       "verse": 26,
       "word_in_verse": 5,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -120351,8 +120351,8 @@
       "verse": 35,
       "word_in_verse": 6,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -120521,8 +120521,8 @@
       "verse": 37,
       "word_in_verse": 4,
       "hebrew": "אֶפְרַ֙יִם֙",
-      "transliteration": "efráyím",
-      "marked_vowels": 2,
+      "transliteration": "efráyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -120671,8 +120671,8 @@
       "verse": 38,
       "word_in_verse": 5,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -120861,8 +120861,8 @@
       "verse": 40,
       "word_in_verse": 6,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -121251,8 +121251,8 @@
       "verse": 44,
       "word_in_verse": 5,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -122351,8 +122351,8 @@
       "verse": 57,
       "word_in_verse": 6,
       "hebrew": "מִשְׁפַּ֙חַת֙",
-      "transliteration": "mishpáchát",
-      "marked_vowels": 2,
+      "transliteration": "mishpáchat",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -122631,8 +122631,8 @@
       "verse": 59,
       "word_in_verse": 4,
       "hebrew": "יוֹכֶ֙בֶד֙",
-      "transliteration": "yokhévéd",
-      "marked_vowels": 2,
+      "transliteration": "yokhéved",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -123371,8 +123371,8 @@
       "verse": 64,
       "word_in_verse": 1,
       "hebrew": "וּבְאֵ֙לֶּה֙",
-      "transliteration": "uvélé",
-      "marked_vowels": 2,
+      "transliteration": "uvéle",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -123861,8 +123861,8 @@
       "verse": 1,
       "word_in_verse": 16,
       "hebrew": "וְאֵ֙לֶּה֙",
-      "transliteration": "veélé",
-      "marked_vowels": 2,
+      "transliteration": "veéle",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -124311,8 +124311,8 @@
       "verse": 4,
       "word_in_verse": 4,
       "hebrew": "אָבִ֙ינוּ֙",
-      "transliteration": "avínú",
-      "marked_vowels": 2,
+      "transliteration": "avínu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -126731,8 +126731,8 @@
       "verse": 22,
       "word_in_verse": 10,
       "hebrew": "וַיַּֽעֲמִדֵ֙הוּ֙",
-      "transliteration": "vayáamidéhú",
-      "marked_vowels": 3,
+      "transliteration": "vayáamidéhu",
+      "marked_vowels": 2,
       "eligible": true
     },
     {
@@ -128081,8 +128081,8 @@
       "verse": 11,
       "word_in_verse": 9,
       "hebrew": "שְׁנַ֙יִם֙",
-      "transliteration": "shenáyím",
-      "marked_vowels": 2,
+      "transliteration": "shenáyim",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -128591,8 +128591,8 @@
       "verse": 14,
       "word_in_verse": 15,
       "hebrew": "חֹ֙דֶשׁ֙",
-      "transliteration": "chódésh",
-      "marked_vowels": 2,
+      "transliteration": "chódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -129831,8 +129831,8 @@
       "verse": 26,
       "word_in_verse": 9,
       "hebrew": "קֹ֙דֶשׁ֙",
-      "transliteration": "qódésh",
-      "marked_vowels": 2,
+      "transliteration": "qódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -129941,8 +129941,8 @@
       "verse": 27,
       "word_in_verse": 4,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -130431,8 +130431,8 @@
       "verse": 1,
       "word_in_verse": 6,
       "hebrew": "קֹ֙דֶשׁ֙",
-      "transliteration": "qódésh",
-      "marked_vowels": 2,
+      "transliteration": "qódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -130581,8 +130581,8 @@
       "verse": 2,
       "word_in_verse": 4,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -131111,8 +131111,8 @@
       "verse": 7,
       "word_in_verse": 6,
       "hebrew": "קֹ֙דֶשׁ֙",
-      "transliteration": "qódésh",
-      "marked_vowels": 2,
+      "transliteration": "qódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -131731,8 +131731,8 @@
       "verse": 12,
       "word_in_verse": 7,
       "hebrew": "קֹ֙דֶשׁ֙",
-      "transliteration": "qódésh",
-      "marked_vowels": 2,
+      "transliteration": "qódesh",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -131901,8 +131901,8 @@
       "verse": 13,
       "word_in_verse": 5,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -134211,8 +134211,8 @@
       "verse": 36,
       "word_in_verse": 5,
       "hebrew": "נִיחֹ֙חַ֙",
-      "transliteration": "nichóách",
-      "marked_vowels": 2,
+      "transliteration": "nichóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -135231,8 +135231,8 @@
       "verse": 5,
       "word_in_verse": 13,
       "hebrew": "וְקָ֙מוּ֙",
-      "transliteration": "veqámú",
-      "marked_vowels": 2,
+      "transliteration": "veqámu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -136301,8 +136301,8 @@
       "verse": 12,
       "word_in_verse": 8,
       "hebrew": "וְקָ֙מוּ֙",
-      "transliteration": "veqámú",
-      "marked_vowels": 2,
+      "transliteration": "veqámu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -138091,8 +138091,8 @@
       "verse": 8,
       "word_in_verse": 10,
       "hebrew": "רֶ֙קֶם֙",
-      "transliteration": "réqém",
-      "marked_vowels": 2,
+      "transliteration": "réqem",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -140071,8 +140071,8 @@
       "verse": 22,
       "word_in_verse": 7,
       "hebrew": "הַנְּחֹ֙שֶׁת֙",
-      "transliteration": "hanechóshét",
-      "marked_vowels": 2,
+      "transliteration": "hanechóshet",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -140501,8 +140501,8 @@
       "verse": 26,
       "word_in_verse": 4,
       "hebrew": "מַלְק֙וֹחַ֙",
-      "transliteration": "malqóách",
-      "marked_vowels": 2,
+      "transliteration": "malqóach",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -140601,8 +140601,8 @@
       "verse": 27,
       "word_in_verse": 1,
       "hebrew": "וְחָצִ֙יתָ֙",
-      "transliteration": "vechatsítá",
-      "marked_vowels": 2,
+      "transliteration": "vechatsíta",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -141791,8 +141791,8 @@
       "verse": 36,
       "word_in_verse": 10,
       "hebrew": "אֶ֙לֶף֙",
-      "transliteration": "éléf",
-      "marked_vowels": 2,
+      "transliteration": "élef",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -142251,8 +142251,8 @@
       "verse": 41,
       "word_in_verse": 4,
       "hebrew": "מֶ֙כֶס֙",
-      "transliteration": "mékhés",
-      "marked_vowels": 2,
+      "transliteration": "mékhes",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -142511,8 +142511,8 @@
       "verse": 43,
       "word_in_verse": 8,
       "hebrew": "אֶ֙לֶף֙",
-      "transliteration": "éléf",
-      "marked_vowels": 2,
+      "transliteration": "élef",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -142901,8 +142901,8 @@
       "verse": 47,
       "word_in_verse": 19,
       "hebrew": "מִשְׁמֶ֙רֶת֙",
-      "transliteration": "mishmérét",
-      "marked_vowels": 2,
+      "transliteration": "mishméret",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -143581,8 +143581,8 @@
       "verse": 52,
       "word_in_verse": 6,
       "hebrew": "הֵרִ֙ימוּ֙",
-      "transliteration": "herímú",
-      "marked_vowels": 2,
+      "transliteration": "herímu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -144761,8 +144761,8 @@
       "verse": 6,
       "word_in_verse": 8,
       "hebrew": "יָבֹ֙אוּ֙",
-      "transliteration": "yavóú",
-      "marked_vowels": 2,
+      "transliteration": "yavóu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -146281,8 +146281,8 @@
       "verse": 17,
       "word_in_verse": 14,
       "hebrew": "טַפֵּ֙נוּ֙",
-      "transliteration": "tapénú",
-      "marked_vowels": 2,
+      "transliteration": "tapénu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -146531,8 +146531,8 @@
       "verse": 19,
       "word_in_verse": 10,
       "hebrew": "נַחֲלָתֵ֙נוּ֙",
-      "transliteration": "nachalaténú",
-      "marked_vowels": 2,
+      "transliteration": "nachalaténu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -148271,8 +148271,8 @@
       "verse": 32,
       "word_in_verse": 8,
       "hebrew": "וְאִתָּ֙נוּ֙",
-      "transliteration": "veitánú",
-      "marked_vowels": 2,
+      "transliteration": "veitánu",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -148451,8 +148451,8 @@
       "verse": 33,
       "word_in_verse": 14,
       "hebrew": "מַמְלֶ֙כֶת֙",
-      "transliteration": "mamlékhét",
-      "marked_vowels": 2,
+      "transliteration": "mamlékhet",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -148551,8 +148551,8 @@
       "verse": 33,
       "word_in_verse": 24,
       "hebrew": "לְעָרֶ֙יהָ֙",
-      "transliteration": "learéyá",
-      "marked_vowels": 2,
+      "transliteration": "learéya",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -150231,8 +150231,8 @@
       "verse": 7,
       "word_in_verse": 3,
       "hebrew": "וַיָּ֙שָׁב֙",
-      "transliteration": "vayásháv",
-      "marked_vowels": 2,
+      "transliteration": "vayáshav",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -153361,8 +153361,8 @@
       "verse": 52,
       "word_in_verse": 5,
       "hebrew": "הָאָ֙רֶץ֙",
-      "transliteration": "haáréts",
-      "marked_vowels": 2,
+      "transliteration": "haárets",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -158721,8 +158721,8 @@
       "verse": 11,
       "word_in_verse": 9,
       "hebrew": "שָׁ֙מָּה֙",
-      "transliteration": "shámá",
-      "marked_vowels": 2,
+      "transliteration": "sháma",
+      "marked_vowels": 1,
       "eligible": true
     },
     {
@@ -161361,8 +161361,8 @@
       "verse": 31,
       "word_in_verse": 3,
       "hebrew": "כֹ֙פֶר֙",
-      "transliteration": "khófér",
-      "marked_vowels": 2,
+      "transliteration": "khófer",
+      "marked_vowels": 1,
       "eligible": true
     },
     {

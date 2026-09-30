@@ -102,15 +102,19 @@ results/distribution/<label>/
 with:
 
 - `distribution.svg` — vector figure for repository/browser use;
-- `distribution.pdf` — vector figure suitable for journal Supplementary Material;
+- `distribution.pdf` — vector figure for print-quality inspection or reuse;
 - `distribution.png` — 300-dpi raster preview;
 - `density.tsv` — local-window values used to draw the map;
 - `summary.json` — parameters, corpus hashes, code hashes, environment, and book-level descriptive counts;
-- `caption.txt` — a parameter-matched suggested caption for Supplementary Figure S1.
+- `caption.txt` — a parameter-matched descriptive caption for the generated visualization.
 
 The three figure formats represent the same data and settings.
 
 The figure uses a shared within-run color scale so the five books can be inspected under the same parameter set. Its horizontal axis is relative position within each book. Horizontal display position is normalized to 0–100% separately for each book; the underlying matching calculations are performed on the actual eligible-word sequence and are not rescaled.
+
+Horizontal position is normalized separately to 0–100% of each book's eligible-word sequence; equal strip widths do not represent equal book lengths. The n labels give eligible-word counts. Matching distances and local windows use actual word counts, not percentages. The shared color scale represents local proportions, not absolute numbers of words.
+
+Equal-width strips support comparison of relative locations within books. They do not support comparison of absolute horizontal spans: a feature occupying the same percentage in two books may cover different numbers of words.
 
 ## Interpreting the default map
 
@@ -118,6 +122,6 @@ The default committed map retains exact lexical repetition because repeated word
 
 A reader who wants to examine sensitivity to exact lexical repetition or to optional close consonantal relations can regenerate the map under those settings without changing the underlying corpus.
 
-## Suggested Supplementary Figure wording
+## Generated caption
 
-The default run writes a full parameter-matched caption to `caption.txt`. For the article submission, the intended role is descriptive and supplementary: the figure provides a visible map of the repository tool's default output but is not used as an external-corpus comparison or statistical proof of poetic status.
+The default run writes a full parameter-matched caption to `caption.txt`. The caption describes the parameters and interpretive limits of the visualization. The map is not an external-corpus comparison or a statistical proof of poetic status.

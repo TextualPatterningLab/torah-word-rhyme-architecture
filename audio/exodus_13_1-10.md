@@ -11,6 +11,8 @@
 
 ## Purpose
 
+This preliminary recording illustrates approximately how the selected text can fit within a rhythmic framework. Minor variations in timing, pitch, and stress are part of the provisional performance. The recording serves as a listening aid; interpretation should remain grounded in the text itself. The supplied transcription gives the intended reading, rather than a time-aligned record of every sung detail.
+
 This recording provides an experimental rhythmic realization of Exodus 13:1–10. The longer passage is useful because recurrent sound relations do not remain confined to isolated word pairs: lexical returns, suffixal fields, repeated formulas, and broader echoes accumulate across successive verses.
 
 The realization is demonstrative rather than a reconstruction of an ancient melody or historically transmitted meter. The Cubase tempo and meter describe this particular realization only. Minor local departures in intonation or rhythmic placement belong to the performance and are not part of the textual analysis. The purpose of the recording is to make recurrent relations already present in the written passage easier to follow in continuous performance.
@@ -64,7 +66,7 @@ Ve-shamarta et-ha-chuqqah ha-zot le-mo'adah, mi-yamim yamimah.
 The recording is intended to make several overlapping relations easier to follow in continuous performance. They are not all the same kind of rhyme; some are exact lexical returns, some broader sound correspondences, and some recurrent grammatical or formulaic fields.
 
 - the speech-formula correspondence **va-yedabber / va-yomer**;
-- **Moshe / asher**, a broader consonant-vowel echo across the transition from the introductory formula into Moses' speech;
+- **Moshe / asher**, an exploratory partial echo, not an exact terminal rhyme, across the transition from the introductory formula into Moses' speech;
 - the prominent **bekhor / zakhor** correspondence across vv. 2–3;
 - the repeated **khol / kol** in **khol-bekhor / kol-rechem** and the **li ... li** frame of v. 2;
 - **ha-yom ha-zeh / mi-zeh**, followed immediately by the renewed **ha-yom** at the opening of v. 4;
@@ -80,4 +82,4 @@ The recording is intended to make several overlapping relations easier to follow
 - the related verbal return **hotzi ... etkhem** (v. 3) → **hotzi'akha** (v. 9), together with repeated **mi-Mitzrayim**;
 - the closing concentration **ha-chuqqah ha-zot / le-mo'adah / mi-yamim yamimah**, with **mi-yamim yamimah** providing an especially compact lexical-sound return at the end of the unit.
 
-The audio is supplementary and illustrative. The textual and computational claims of the repository do not depend on the vocal precision of this particular realization.
+The audio is illustrative. Textual and computational interpretation does not depend on the vocal precision of this particular realization.

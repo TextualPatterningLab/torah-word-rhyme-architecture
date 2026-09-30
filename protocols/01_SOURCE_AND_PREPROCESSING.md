@@ -30,15 +30,21 @@ The transliteration is a deterministic computational representation, not a compl
 - U+05B3 hataf qamats -> `o`.
 - Sheva is resolved by the fixed limited rules implemented in `src/preprocess_corpus.py`.
 - `ch`, `kh`, `sh`, and `ts` are computational multigraphs.
-- Article-facing spelling may use `tz` for computational `ts`.
+- Human-readable close-reading examples may use `tz` for computational `ts`.
 
 The pipeline does not add passage-specific pronunciation corrections. Fuller reading rules may be used in close-reading examples without silently altering the analytical corpus.
 
 ## Prominence marking
 
-Every recognized in-word taam or meteg event is mapped to an acute accent on its selected Latin vowel. Taam names themselves are not printed in the processed reading view.
+Recognized in-word taam or meteg events are mapped to acute accents on selected Latin vowels, with one general exception: when a word has two pashta signs and the second is on its final letter, the internal pashta supplies the prominence target; the final, postpositive repetition does not add another acute. Both signs remain intact in the stored Hebrew and raw source. This rule applies uniformly, not through passage-specific corrections. Taam names themselves are not printed in the processed reading view.
 
 A word may contain more than one marked vowel. The passage-inspection signature uses the **final marked vowel**. In ordinary cases this captures the final lexical-accent prominence while retaining a deterministic treatment of the source marks.
+
+This is a demonstrative marked-vowel heuristic, not a complete lexical-stress resolver. Other prepositive/postpositive signs and meteg combinations may still produce a mapped prominence different from the reading tradition. Inspect Hebrew and check pronunciation manually before interpreting an individual match or absence. Close-reading examples are evaluated independently of this utility; the distribution map is not a statistical test of poetic status.
+
+Two implementation details are relevant when checking individual words. A mark on a final consonant without its own vowel is mapped back to the preceding available vowel. Final chet with patah is rendered as `ach`, as in `rúach`; however, furtive-patah handling is not generalized to all final gutturals, and the mapping does not separately prevent an acute on that final `a` when the source mark targets it. Such cases require manual reading checks. These limitations can affect both reported correspondences and omissions; an absent match is not evidence that a literary echo is absent.
+
+The rule identifier `simple-v2-pashta` distinguishes this limited correction from the original `simple-v1` mapping. No other pronunciation rule is changed.
 
 ## Outputs
 
